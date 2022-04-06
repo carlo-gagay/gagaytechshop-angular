@@ -1,0 +1,77 @@
+* {
+
+    font-family: Poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    top: 0;
+    box-shadow: rgb(116, 116, 126) 0px 0px 1px 0px;
+    height: fit-content;
+}
+
+.container {
+    padding: 5px 15px;
+    box-sizing: content-box;
+    width: max-content;
+}
+
+#brand {
+    padding: 7px 3px;
+}
+
+.container > #brand-title, #brand-subtitle {
+    vertical-align: middle;
+}
+
+#brand-title {
+    color: #0e4590;
+}
+
+.container > .sub-container {
+    vertical-align: middle;
+    padding: 5px 10px;
+    vertical-align: middle;
+    margin:auto;
+}
+
+.nav-link {
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 50px;
+    margin-left: 10px;
+    color: #606872;
+}
+
+.nav-link:hover {
+    color: #0e4590;
+}
+
+#brand-title {
+    font-size: 1.7rem;
+}
+
+#brand-subtitle {
+    font-size: .9rem;
+    color: #606872;
+}
+
+.container #logo {
+    vertical-align: middle;
+    line-height: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.inline #logo { 
+    margin-top: -30px;
+}
